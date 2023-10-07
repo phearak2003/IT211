@@ -34,3 +34,9 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+## Access to dashboard
+Create yourown super user by running the following command:
+```
+python manage.py createsuperuser
+```
+Then, go to dashboard by http://localhost:8000/dashboard/, and login using your username and password you have created. 
